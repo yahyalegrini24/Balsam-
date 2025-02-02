@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Balsam",
-    "slug": "Balsam",
+    "slug": "balsam",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.Balsam"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f4baab3e-25c5-45ab-a0e8-1e9108d2b54c"
+      }
+    },
+    "owner": "legrini.yehya"
   }
 }
